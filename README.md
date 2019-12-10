@@ -1,3 +1,3 @@
 # SQLZOO
-Solution of every question on SQLZOO
-Hope it helps!!
+Solution of every question on SQLZOO.
+I hope it helps!!
