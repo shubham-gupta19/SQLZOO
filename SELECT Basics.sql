@@ -4,17 +4,20 @@ Introducing the world table of countries
 
 1.Modify it to show the population of Germany
 
-  SELECT population FROM world
+  SELECT population 
+  FROM world
   WHERE name = 'GERMANY'
 
 2.Show the name and the population for 'Sweden', 'Norway' and 'Denmark'.
 
-  SELECT name, population FROM world
+  SELECT name, population 
+  FROM world
   WHERE name IN ('SWEDEN','NORWAY','DENMARK')
 
 3.Modify it to show the country and the area for countries with an area between 200,000 and 250,000.
 
-  SELECT name, area FROM world
+  SELECT name, area 
+  FROM world
   WHERE area BETWEEN 200000 AND 250000
 
 
@@ -44,7 +47,8 @@ Algeria	32900000
 
 3.Select the code which shows the countries that end in A or L
 
-SELECT name FROM world
+SELECT name 
+FROM world
 WHERE name LIKE '%a' OR name LIKE '%l'
 
 4.Pick the result from the query
@@ -60,7 +64,9 @@ Spain	  5
 
 5.Pick the result you would obtain from this code:
 
-SELECT name, area*2 FROM world WHERE population = 64000
+SELECT name, area*2 
+FROM world 
+WHERE population = 64000
 
 Andorra	936
 
